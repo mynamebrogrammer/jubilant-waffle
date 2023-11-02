@@ -4,8 +4,8 @@ import '../../Footer.css';
 function Footer() {
   return (
     <footer className="footer">
-      <p>&copy; {new Date().getFullYear()} Burbank Deli & Market.</p>
-      <p className="name">Maksoud Productions. All rights reserved.</p>
+      <p>  </p>
+      <p className="name">NiemzSeq Productions&copy;. All rights reserved.{new Date().getFullYear()}</p>
     </footer>
   );
 }

@@ -5,7 +5,7 @@ import Footer from "./components/common/Footer";
 import Home from "./pages/Home";
 import MenuPage from "./pages/MenuPage";
 import PromotionsPage from "./pages/PromotionsPage";
-import ContactPage from "./pages/ContactPage";
+import ContactPage from "../src/pages/Contactpage";
 import BeerPage from "./pages/BeerPage";
 import "./App.css";
 import { ThemeProvider } from "./utils/ThemeContext";

@@ -3,7 +3,7 @@ import { Nav, Navbar } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 
 // logo image file in project
-import logo from '../../burbankdelilogo.png';
+
 
 function Header() {
   return (
@@ -11,7 +11,7 @@ function Header() {
       <Navbar bg="light" expand="lg">
         <LinkContainer to="/">
           <Navbar.Brand>
-            <img src={logo} alt="Burbank Deli Market" width="120" height="auto" />
+            
           </Navbar.Brand>
         </LinkContainer>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

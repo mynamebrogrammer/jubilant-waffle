@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
-import logo1 from "../burbankdelilogo.png";
 
 function Home() {
   return (
@@ -9,19 +8,16 @@ function Home() {
         <Col>
           <Card className="my-4">
             <Card.Body>
-              <Card.Title>Welcome to Burbank Deli & Market!</Card.Title>
+              <Card.Title>
+                THE FUTURE OF NEXT GEN SEQUENCING IS HERE!
+              </Card.Title>
               <Card.Subtitle className="mb-2 text-muted">
-                <img
-                  src={logo1}
-                  alt="Burbank Deli Market"
-                  width="300"
-                  height="300"
-                />
+                {/* Add content for the current page */}
+                Discover the safest self-driving experience with NiemzSeq.
               </Card.Subtitle>
               <Card.Text>
                 {/* Add content for the current page */}
-                We are a family-owned and operated business that has been
-                serving the Burbank community for over 30 years.
+                WORDs.
               </Card.Text>
             </Card.Body>
           </Card>
