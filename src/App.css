@@ -1,0 +1,76 @@
+:root {
+  --background-color: white;
+  --text-color: black;
+}
+
+.dark-mode {
+  --background-color: #2a2e37;
+  --text-color: white;
+}
+
+.App {
+  text-align: center;
+  font-family: 'Roboto', 'Courier New', Courier, monospace, sans-serif, Playfair Display; /* Add your desired font family here */
+  font-size: large;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-family: 'Roboto', sans-serif, Playfair Display; /* Add your desired font family here */
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.operating-hours-accordion {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.operating-hours-accordion .accordion {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  cursor: pointer;
+  padding: 1rem;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif, Playfair Display; 
+  transition: 0.4s;
+}
+
+.operating-hours-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif, Playfair Display; 
+}
+
